@@ -1,0 +1,91 @@
+2016-02-21 10:34:15,951 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG
+2016-02-21 10:38:03,973 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG
+2016-02-21 10:38:35,938 - DEBUG - Creation of : kanban(toto, qty:5, empty
+2016-02-21 10:43:22,957 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG
+2016-02-21 10:43:53,818 - DEBUG - Creation of : kanban(toto, qty:5, empty)
+2016-02-21 10:44:04,177 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-21 10:44:04,180 - ERROR - <type 'exceptions.NameError'> - name 'k_stock' is not defined
+2016-02-21 10:47:15,219 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG
+2016-02-21 10:47:35,529 - DEBUG - Creation of : kanban(toto, qty:5, empty)
+2016-02-21 10:47:43,545 - DEBUG - Getter
+2016-02-21 10:47:53,881 - DEBUG - Getter
+2016-02-21 10:47:53,881 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-21 10:47:53,884 - ERROR - <type 'exceptions.TypeError'> - 'int' object is not callable
+2016-02-21 10:52:38,938 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG
+2016-02-21 10:53:03,743 - DEBUG - Creation of : kanban(toto, qty:5, empty)
+2016-02-21 10:53:10,456 - DEBUG - Getter
+2016-02-21 10:53:24,568 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-21 10:53:24,569 - ERROR - <type 'exceptions.TypeError'> - 'int' object is not callable
+2016-02-21 10:53:30,608 - ERROR - 
+2016-02-21 10:53:30,608 - ERROR - <type 'exceptions.SyntaxError'> - can't assign to function call (<stdin>, line 1)
+2016-02-21 10:53:37,752 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-21 10:53:37,753 - ERROR - <type 'exceptions.NameError'> - name 'k_stock' is not defined
+2016-02-21 10:53:43,296 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-21 10:53:43,298 - ERROR - <type 'exceptions.NameError'> - name 'k_stock' is not defined
+2016-02-21 10:58:54,576 - ERROR - 
+2016-02-21 10:58:54,578 - ERROR - <type 'exceptions.IndentationError'> - expected an indented block (<stdin>, line 2)
+2016-02-21 10:58:54,579 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-21 10:58:54,581 - ERROR - <type 'exceptions.NameError'> - name 'self' is not defined
+2016-02-21 10:58:54,582 - ERROR - 
+2016-02-21 10:58:54,584 - ERROR - <type 'exceptions.IndentationError'> - expected an indented block (<stdin>, line 3)
+2016-02-21 10:58:54,585 - ERROR - 
+2016-02-21 10:58:54,586 - ERROR - <type 'exceptions.SyntaxError'> - invalid syntax (<stdin>, line 2)
+2016-02-21 10:58:55,405 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-21 10:58:55,407 - ERROR - <type 'exceptions.NameError'> - name 'x' is not defined
+2016-02-21 11:01:55,519 - ERROR - 
+2016-02-21 11:01:55,522 - ERROR - <type 'exceptions.IndentationError'> - expected an indented block (<stdin>, line 2)
+2016-02-21 11:01:55,523 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-21 11:01:55,525 - ERROR - <type 'exceptions.NameError'> - name 'self' is not defined
+2016-02-21 11:01:55,526 - ERROR - 
+2016-02-21 11:01:55,528 - ERROR - <type 'exceptions.IndentationError'> - expected an indented block (<stdin>, line 3)
+2016-02-21 11:01:55,530 - ERROR - 
+2016-02-21 11:01:55,530 - ERROR - <type 'exceptions.IndentationError'> - expected an indented block (<stdin>, line 3)
+2016-02-21 11:01:59,463 - ERROR - 
+2016-02-21 11:01:59,470 - ERROR - <type 'exceptions.IndentationError'> - expected an indented block (<stdin>, line 2)
+2016-02-21 11:01:59,473 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-21 11:01:59,474 - ERROR - <type 'exceptions.NameError'> - name 'self' is not defined
+2016-02-21 11:01:59,476 - ERROR - 
+2016-02-21 11:01:59,477 - ERROR - <type 'exceptions.IndentationError'> - expected an indented block (<stdin>, line 3)
+2016-02-21 11:01:59,480 - ERROR - 
+2016-02-21 11:01:59,482 - ERROR - <type 'exceptions.IndentationError'> - expected an indented block (<stdin>, line 3)
+2016-02-21 11:02:04,615 - ERROR - 
+2016-02-21 11:02:04,617 - ERROR - <type 'exceptions.IndentationError'> - expected an indented block (<stdin>, line 2)
+2016-02-21 11:02:04,619 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-21 11:02:04,621 - ERROR - <type 'exceptions.NameError'> - name 'self' is not defined
+2016-02-21 11:02:04,622 - ERROR - 
+2016-02-21 11:02:04,624 - ERROR - <type 'exceptions.IndentationError'> - expected an indented block (<stdin>, line 3)
+2016-02-21 11:02:09,710 - ERROR - 
+2016-02-21 11:02:09,710 - ERROR - <type 'exceptions.IndentationError'> - expected an indented block (<stdin>, line 3)
+2016-02-21 11:02:19,407 - ERROR - 
+2016-02-21 11:02:19,408 - ERROR - <type 'exceptions.IndentationError'> - expected an indented block (<stdin>, line 2)
+2016-02-21 11:02:19,411 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-21 11:02:19,411 - ERROR - <type 'exceptions.NameError'> - name 'self' is not defined
+2016-02-21 11:02:19,414 - ERROR - 
+2016-02-21 11:02:19,415 - ERROR - <type 'exceptions.IndentationError'> - expected an indented block (<stdin>, line 3)
+2016-02-21 11:04:32,191 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG
+2016-02-21 11:04:54,596 - DEBUG - Creation of : kanban(a, qty:5, empty)
+2016-02-21 11:05:04,204 - DEBUG - Getter
+2016-02-21 11:05:08,005 - DEBUG - setter
+2016-02-21 11:05:08,006 - DEBUG - Getter
+2016-02-21 11:05:08,091 - DEBUG - *******KB:1/5 for kanban(a, qty:5, empty)
+2016-02-21 11:05:08,094 - DEBUG - Getter
+2016-02-21 11:05:08,142 - ERROR -   File "<stdin>", line 1, in <module>
+  File "kanban.py", line 40, in stock
+    self.ui_change_label()
+  File "ui_object.py", line 133, in ui_change_label
+    ui_object.ui_change_label(self, self.ui_title())
+  File "ui_object.py", line 31, in ui_change_label
+    self.ui_label.text = txt
+
+2016-02-21 11:05:08,147 - ERROR - <type 'exceptions.AttributeError'> - 'kanban' object has no attribute 'ui_label'

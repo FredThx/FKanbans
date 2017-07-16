@@ -1,0 +1,29 @@
+FKanban
+Kanban simulation
+TODOs:
+- affichage par workshop (option)
+
+- affichage des logs
+	- par type de log (error, warning, ...)
+- ne plus gérer le temps avec un delay, mais plutôt avec attente horaire
+- modifier des parametres en direct
+	- taille batch
+	- nb de kanbans (supression de kb, ajout)
+- sauver la config
+- charegr une config
+Annulés :
+
+- visualiser les mise en production / destoskage
+	- quand un kanban est mis en production : animation
+	- animation quand kanban est vidé
+	- pb : risque de ralentir le programme ++ 
+
+faits :
+
+- gérer les kanbans entamés
+- visualiser les ruptures
+	- changement de couleur de la boucle "provider"
+- statistiques par loop : nb de kanbans sorties		
+- calcul du stock par heure
+	- affichage autre fenetre
+- si (nb_op + 2)*nb_kanban)>30 => kanbans sur 2 colonnes

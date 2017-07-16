@@ -1,0 +1,334 @@
+2016-02-13 17:39:45,079 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : INFO
+2016-02-13 17:39:58,210 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-13 17:39:58,211 - ERROR - <type 'exceptions.NameError'> - name 'env' is not defined
+2016-02-13 17:40:04,865 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-13 17:40:04,867 - ERROR - <type 'exceptions.NameError'> - name 'app' is not defined
+2016-02-13 17:40:13,224 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-13 17:40:13,226 - ERROR - <type 'exceptions.NameError'> - name 'mes_boucles' is not defined
+2016-02-13 17:41:26,980 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-13 17:41:26,982 - ERROR - <type 'exceptions.AttributeError'> - __exit__
+2016-02-14 11:08:11,335 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : INFO
+2016-02-14 11:08:19,494 - ERROR -   File "<stdin>", line 1, in <module>
+  File "main.py", line 49, in <module>
+    app = ui_Fkanban(env)
+  File "Fkanban\ui_Fkanban.py", line 17, in __init__
+    self.initialise()
+  File "Fkanban\ui_Fkanban.py", line 29, in initialise
+    self.mainloop()
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 1121, in mainloop
+    self.tk.mainloop(n)
+
+2016-02-14 11:08:19,500 - ERROR - <type 'exceptions.KeyboardInterrupt'> - 
+2016-02-14 11:09:10,617 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-14 11:09:10,634 - ERROR - <type 'exceptions.NameError'> - name 'app' is not defined
+2016-02-14 11:09:25,743 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-14 11:09:25,746 - ERROR - <type 'exceptions.NameError'> - name 'mzin' is not defined
+2016-02-14 11:09:29,137 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-14 11:09:29,138 - ERROR - <type 'exceptions.NameError'> - name 'main' is not defined
+2016-02-14 11:09:32,007 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-14 11:09:32,009 - ERROR - <type 'exceptions.NameError'> - name 'env' is not defined
+2016-02-14 11:09:41,263 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-14 11:09:41,266 - ERROR - <type 'exceptions.NameError'> - name 'main' is not defined
+2016-02-14 11:09:51,415 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-14 11:09:51,417 - ERROR - <type 'exceptions.NameError'> - name 'mes_ateliers' is not defined
+2016-02-14 11:10:35,207 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-14 11:10:35,220 - ERROR - <type 'exceptions.NameError'> - name 'ui_Fkanban' is not defined
+2016-02-14 11:11:09,920 - ERROR -   File "C:\Python27\lib\lib-tk\Tkinter.py", line 1527, in __call__
+    def __call__(self, *args):
+
+2016-02-14 11:11:09,923 - ERROR - <type 'exceptions.KeyboardInterrupt'> - 
+2016-02-14 11:11:16,371 - ERROR -   File "C:\Python27\lib\atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "C:\Python27\lib\logging\__init__.py", line 1670, in shutdown
+    h.release()
+  File "C:\Python27\lib\logging\__init__.py", line 713, in release
+    self.lock.release()
+  File "C:\Python27\lib\threading.py", line 204, in release
+    raise RuntimeError("cannot release un-acquired lock")
+
+2016-02-14 11:11:16,377 - ERROR - <type 'exceptions.RuntimeError'> - cannot release un-acquired lock
+2016-02-14 11:11:37,141 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : INFO
+2016-02-14 11:12:20,200 - ERROR -   File "<stdin>", line 1, in <module>
+  File "Fkanban\ui_Fkanban.py", line 17, in __init__
+    self.initialise()
+  File "Fkanban\ui_Fkanban.py", line 29, in initialise
+    self.mainloop()
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 1121, in mainloop
+    self.tk.mainloop(n)
+
+2016-02-14 11:12:20,230 - ERROR - <type 'exceptions.KeyboardInterrupt'> - 
+2016-02-14 11:12:24,384 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-14 11:12:24,388 - ERROR - <type 'exceptions.NameError'> - name 'app' is not defined
+2016-02-14 11:13:21,000 - ERROR -   File "C:\Python27\lib\encodings\cp850.py", line 14, in decode
+    def decode(self,input,errors='strict'):
+
+2016-02-14 11:13:21,016 - ERROR - <type 'exceptions.KeyboardInterrupt'> - 
+2016-02-14 11:13:35,707 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : INFO
+2016-02-14 11:17:38,806 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-14 11:17:38,825 - ERROR - <type 'exceptions.AttributeError'> - 'module' object has no attribute 'frame'
+2016-02-14 11:18:01,015 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-14 11:18:01,016 - ERROR - <type 'exceptions.NameError'> - name 'GROOVE' is not defined
+2016-02-14 11:18:31,141 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-14 11:18:31,144 - ERROR - <type 'exceptions.NameError'> - name 'LEFT' is not defined
+2016-02-14 11:20:08,302 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-14 11:20:08,321 - ERROR - <type 'exceptions.NameError'> - name 'frame' is not defined
+2016-02-14 11:20:12,342 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-14 11:20:12,344 - ERROR - <type 'exceptions.TypeError'> - grid_configure() takes at most 2 arguments (3 given)
+2016-02-14 11:28:41,437 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : INFO
+2016-02-14 11:29:34,900 - ERROR - 
+2016-02-14 11:29:34,907 - ERROR - <type 'exceptions.SyntaxError'> - invalid syntax (<stdin>, line 1)
+2016-02-14 11:30:38,115 - ERROR - 
+2016-02-14 11:30:38,151 - ERROR - <type 'exceptions.SyntaxError'> - invalid syntax (<stdin>, line 1)
+2016-02-14 11:30:40,763 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-14 11:30:40,765 - ERROR - <type 'exceptions.NameError'> - name 'LEFT' is not defined
+2016-02-14 11:46:10,336 - ERROR -   File "<stdin>", line 1, in <module>
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 1936, in pack_configure
+    + self._options(cnf, kw))
+
+2016-02-14 11:46:10,354 - ERROR - <class '_tkinter.TclError'> - bad option "-bg": must be -after, -anchor, -before, -expand, -fill, -in, -ipadx, -ipady, -padx, -pady, or -side
+2016-02-14 11:46:44,880 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-14 11:46:44,881 - ERROR - <type 'exceptions.AttributeError'> - Frame instance has no attribute 'bg'
+2016-02-14 11:46:48,696 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-14 11:46:48,697 - ERROR - <type 'exceptions.AttributeError'> - Frame instance has no attribute 'bg'
+2016-02-14 16:49:59,125 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : INFO
+2016-02-14 16:50:04,740 - ERROR -   File "<stdin>", line 1, in <module>
+  File "main.py", line 48, in <module>
+    app = ui_Fkanban(mes_ateliers, mes_boucles)
+  File "Fkanban\ui_Fkanban.py", line 18, in __init__
+    self.initialise()
+  File "Fkanban\ui_Fkanban.py", line 35, in initialise
+    self.mainloop()
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 1121, in mainloop
+    self.tk.mainloop(n)
+
+2016-02-14 16:50:04,746 - ERROR - <type 'exceptions.KeyboardInterrupt'> - 
+2016-02-14 16:50:17,895 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-14 16:50:17,898 - ERROR - <type 'exceptions.NameError'> - name 'app' is not defined
+2016-02-14 16:50:52,190 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-14 16:50:52,193 - ERROR - <type 'exceptions.NameError'> - name 'app' is not defined
+2016-02-14 16:51:25,158 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : INFO
+2016-02-14 16:52:22,920 - ERROR -   File "<stdin>", line 1, in <module>
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 1945, in pack_info
+    d = _splitdict(self.tk, self.tk.call('pack', 'info', self._w))
+
+2016-02-14 16:52:22,924 - ERROR - <class '_tkinter.TclError'> - window ".47577288L" isn't packed
+2016-02-14 16:52:35,167 - ERROR -   File "<stdin>", line 1, in <module>
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 1945, in pack_info
+    d = _splitdict(self.tk, self.tk.call('pack', 'info', self._w))
+
+2016-02-14 16:52:35,170 - ERROR - <class '_tkinter.TclError'> - window ".47577288L" isn't packed
+2016-02-14 18:42:20,424 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : INFO
+2016-02-14 18:42:30,068 - ERROR -   File "<stdin>", line 1, in <module>
+  File "main.py", line 48, in <module>
+    app = ui_Fkanban(mes_ateliers, mes_boucles)
+  File "Fkanban\ui_Fkanban.py", line 18, in __init__
+    self.initialise()
+  File "Fkanban\ui_Fkanban.py", line 35, in initialise
+    self.mainloop()
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 1121, in mainloop
+    self.tk.mainloop(n)
+
+2016-02-14 18:42:30,072 - ERROR - <type 'exceptions.KeyboardInterrupt'> - 
+2016-02-14 18:42:35,926 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-14 18:42:35,927 - ERROR - <type 'exceptions.NameError'> - name 'app' is not defined
+2016-02-14 18:42:43,421 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-14 18:42:43,423 - ERROR - <type 'exceptions.NameError'> - name 'app' is not defined
+2016-02-14 18:43:10,805 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-14 18:43:10,808 - ERROR - <type 'exceptions.NameError'> - name 'app' is not defined
+2016-02-14 18:43:26,397 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : INFO
+2016-02-14 18:43:26,397 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : INFO
+2016-02-14 18:44:21,904 - ERROR -   File "<stdin>", line 2, in <module>
+
+2016-02-14 18:44:21,904 - ERROR -   File "<stdin>", line 2, in <module>
+
+2016-02-14 18:44:21,938 - ERROR - <type 'exceptions.AttributeError'> - 'customer_kloop' object has no attribute 'kanbans'
+2016-02-14 18:44:21,938 - ERROR - <type 'exceptions.AttributeError'> - 'customer_kloop' object has no attribute 'kanbans'
+2016-02-14 18:46:05,319 - ERROR -   File "<stdin>", line 1, in <module>
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 1326, in cget
+    return self.tk.call(self._w, 'cget', '-' + key)
+
+2016-02-14 18:46:05,319 - ERROR -   File "<stdin>", line 1, in <module>
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 1326, in cget
+    return self.tk.call(self._w, 'cget', '-' + key)
+
+2016-02-14 18:46:05,336 - ERROR - <type 'exceptions.TypeError'> - cannot concatenate 'str' and 'int' objects
+2016-02-14 18:46:05,336 - ERROR - <type 'exceptions.TypeError'> - cannot concatenate 'str' and 'int' objects
+2016-02-14 18:47:05,286 - ERROR -   File "<stdin>", line 1, in <module>
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 1326, in cget
+    return self.tk.call(self._w, 'cget', '-' + key)
+
+2016-02-14 18:47:05,286 - ERROR -   File "<stdin>", line 1, in <module>
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 1326, in cget
+    return self.tk.call(self._w, 'cget', '-' + key)
+
+2016-02-14 18:47:05,290 - ERROR - <type 'exceptions.TypeError'> - cannot concatenate 'str' and 'int' objects
+2016-02-14 18:47:05,290 - ERROR - <type 'exceptions.TypeError'> - cannot concatenate 'str' and 'int' objects
+2016-02-14 18:47:42,063 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : INFO
+2016-02-16 23:21:21,411 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : INFO
+2016-02-16 23:21:21,566 - ERROR -   File "<stdin>", line 1, in <module>
+  File "main.py", line 9, in <module>
+    from config import *
+  File "config.py", line 113, in <module>
+    app = ui_Fkanban(mes_ateliers, mes_boucles)
+  File "Fkanban\ui_Fkanban.py", line 18, in __init__
+    self.initialise()
+  File "Fkanban\ui_Fkanban.py", line 34, in initialise
+    self.ui_update_kanbans()
+  File "Fkanban\ui_Fkanban.py", line 47, in ui_update_kanbans
+    kb.ui_update()
+  File "Fkanban\ui_object.py", line 147, in ui_update
+    self.ui_objects[parent].ui_label.configure(fg = 'black')
+
+2016-02-16 23:21:21,573 - ERROR - <type 'exceptions.AttributeError'> - 'NoneType' object has no attribute 'configure'
+2016-02-16 23:21:28,720 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-16 23:21:28,726 - ERROR - <type 'exceptions.NameError'> - name 'app' is not defined
+2016-02-16 23:22:05,016 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-16 23:22:05,032 - ERROR - <type 'exceptions.NameError'> - name 'config' is not defined
+2016-02-16 23:22:06,792 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-16 23:22:06,795 - ERROR - <type 'exceptions.NameError'> - name 'app' is not defined
+2016-02-16 23:22:12,352 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-16 23:22:12,355 - ERROR - <type 'exceptions.NameError'> - name 'app' is not defined
+2016-02-16 23:22:17,056 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : INFO
+2016-02-16 23:22:17,056 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : INFO
+2016-02-16 23:22:17,256 - ERROR -   File "<stdin>", line 1, in <module>
+  File "main.py", line 9, in <module>
+    from config import *
+  File "config.py", line 113, in <module>
+    app = ui_Fkanban(mes_ateliers, mes_boucles)
+  File "Fkanban\ui_Fkanban.py", line 18, in __init__
+    self.initialise()
+  File "Fkanban\ui_Fkanban.py", line 34, in initialise
+    self.ui_update_kanbans()
+  File "Fkanban\ui_Fkanban.py", line 47, in ui_update_kanbans
+    kb.ui_update()
+  File "Fkanban\ui_object.py", line 150, in ui_update
+    self.ui_objects[parent].ui_label.configure(fg = 'ivory')
+
+2016-02-16 23:22:17,256 - ERROR -   File "<stdin>", line 1, in <module>
+  File "main.py", line 9, in <module>
+    from config import *
+  File "config.py", line 113, in <module>
+    app = ui_Fkanban(mes_ateliers, mes_boucles)
+  File "Fkanban\ui_Fkanban.py", line 18, in __init__
+    self.initialise()
+  File "Fkanban\ui_Fkanban.py", line 34, in initialise
+    self.ui_update_kanbans()
+  File "Fkanban\ui_Fkanban.py", line 47, in ui_update_kanbans
+    kb.ui_update()
+  File "Fkanban\ui_object.py", line 150, in ui_update
+    self.ui_objects[parent].ui_label.configure(fg = 'ivory')
+
+2016-02-16 23:22:17,273 - ERROR - <type 'exceptions.AttributeError'> - 'NoneType' object has no attribute 'configure'
+2016-02-16 23:22:17,273 - ERROR - <type 'exceptions.AttributeError'> - 'NoneType' object has no attribute 'configure'
+2016-02-16 23:22:20,688 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-16 23:22:20,688 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-16 23:22:20,691 - ERROR - <type 'exceptions.NameError'> - name 'app' is not defined
+2016-02-16 23:22:20,691 - ERROR - <type 'exceptions.NameError'> - name 'app' is not defined
+2016-02-16 23:22:36,858 - ERROR -   File "C:\Python27\lib\lib-tk\Tkinter.py", line 1527, in __call__
+    def __call__(self, *args):
+
+2016-02-16 23:22:36,858 - ERROR -   File "C:\Python27\lib\lib-tk\Tkinter.py", line 1527, in __call__
+    def __call__(self, *args):
+
+2016-02-16 23:22:36,861 - ERROR - <type 'exceptions.KeyboardInterrupt'> - 
+2016-02-16 23:22:36,861 - ERROR - <type 'exceptions.KeyboardInterrupt'> - 
+2016-02-16 23:22:58,180 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : INFO
+2016-02-16 23:22:58,301 - ERROR -   File "<stdin>", line 1, in <module>
+  File "main.py", line 9, in <module>
+    from config import *
+  File "config.py", line 113, in <module>
+    app = ui_Fkanban(mes_ateliers, mes_boucles)
+  File "Fkanban\ui_Fkanban.py", line 18, in __init__
+    self.initialise()
+  File "Fkanban\ui_Fkanban.py", line 34, in initialise
+    self.ui_update_kanbans()
+  File "Fkanban\ui_Fkanban.py", line 47, in ui_update_kanbans
+    kb.ui_update()
+  File "Fkanban\ui_object.py", line 147, in ui_update
+    self.ui_objects[parent].ui_label.configure(fg = 'black')
+
+2016-02-16 23:22:58,306 - ERROR - <type 'exceptions.AttributeError'> - 'NoneType' object has no attribute 'configure'
+2016-02-16 23:23:01,809 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-16 23:23:01,811 - ERROR - <type 'exceptions.NameError'> - name 'app' is not defined
+2016-02-16 23:23:20,209 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-16 23:23:20,210 - ERROR - <type 'exceptions.NameError'> - name 'mes_boucles' is not defined
+2016-02-16 23:23:49,338 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : INFO
+2016-02-16 23:23:56,888 - ERROR -   File "<stdin>", line 1, in <module>
+  File "Fkanban\ui_Fkanban.py", line 18, in __init__
+    self.initialise()
+  File "Fkanban\ui_Fkanban.py", line 34, in initialise
+    self.ui_update_kanbans()
+  File "Fkanban\ui_Fkanban.py", line 47, in ui_update_kanbans
+    kb.ui_update()
+  File "Fkanban\ui_object.py", line 147, in ui_update
+    self.ui_objects[parent].ui_label.configure(fg = 'black')
+
+2016-02-16 23:23:56,894 - ERROR - <type 'exceptions.AttributeError'> - 'NoneType' object has no attribute 'configure'
+2016-02-16 23:23:59,913 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-16 23:23:59,914 - ERROR - <type 'exceptions.NameError'> - name 'app' is not defined
+2016-02-16 23:24:20,885 - ERROR -   File "<stdin>", line 1, in <module>
+  File "Fkanban\ui_Fkanban.py", line 18, in __init__
+    self.initialise()
+  File "Fkanban\ui_Fkanban.py", line 34, in initialise
+    self.ui_update_kanbans()
+  File "Fkanban\ui_Fkanban.py", line 47, in ui_update_kanbans
+    kb.ui_update()
+  File "Fkanban\ui_object.py", line 147, in ui_update
+    self.ui_objects[parent].ui_label.configure(fg = 'black')
+
+2016-02-16 23:24:20,891 - ERROR - <type 'exceptions.AttributeError'> - 'NoneType' object has no attribute 'configure'
+2016-02-16 23:24:25,039 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-16 23:24:25,042 - ERROR - <type 'exceptions.NameError'> - name 'app' is not defined
+2016-02-16 23:24:33,569 - ERROR -   File "<stdin>", line 1, in <module>
+  File "Fkanban\ui_Fkanban.py", line 18, in __init__
+    self.initialise()
+  File "Fkanban\ui_Fkanban.py", line 34, in initialise
+    self.ui_update_kanbans()
+  File "Fkanban\ui_Fkanban.py", line 47, in ui_update_kanbans
+    kb.ui_update()
+  File "Fkanban\ui_object.py", line 146, in ui_update
+    self.ui_objects[parent].configure(bg = 'ivory')
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 1322, in configure
+    return self._configure('configure', cnf, kw)
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 1313, in _configure
+    self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+
+2016-02-16 23:24:33,578 - ERROR - <class '_tkinter.TclError'> - invalid command name ".47637784L.70857224L.70857544L"
+2016-02-16 23:24:47,273 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-02-16 23:24:47,273 - ERROR - <type 'exceptions.NameError'> - name 'app' is not defined
