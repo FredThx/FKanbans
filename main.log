@@ -10465,3 +10465,954 @@
 2020-06-23 09:13:22,444 - INFO - Kanban finished : kanban(P0051434 - CHARNIERE, qty:64, full)
 2020-06-23 09:13:22,444 - INFO - Operation(Pliage - P0051434) is finished
 2020-06-23 09:13:22,444 - INFO - Kanban finished : kanban(P0051434 - CHARNIERE, qty:64, full)
+2020-06-23 10:28:05,845 - INFO - my_logging logger is started. Console : INFO. File (C:\Users\FRED\Documents\GitHub\FKanbans\main.log) : INFO
+2020-06-23 10:28:05,861 - ERROR -   File "C:\Users\FRED\Documents\GitHub\FKanbans\main.py", line 9, in <module>
+    from config import *
+  File "C:\Users\FRED\Documents\GitHub\FKanbans\config.py", line 11, in <module>
+    impregnation, = worlshop("Impregnation")
+
+2020-06-23 10:28:05,861 - ERROR - <class 'NameError'> - name 'worlshop' is not defined
+2020-06-23 10:28:25,766 - INFO - my_logging logger is started. Console : INFO. File (C:\Users\FRED\Documents\GitHub\FKanbans\main.log) : INFO
+2020-06-23 10:28:25,781 - ERROR -   File "C:\Users\FRED\Documents\GitHub\FKanbans\main.py", line 9, in <module>
+    from config import *
+  File "C:\Users\FRED\Documents\GitHub\FKanbans\config.py", line 11, in <module>
+    impregnation, = workshop("Impregnation")
+
+2020-06-23 10:28:25,781 - ERROR - <class 'TypeError'> - cannot unpack non-iterable workshop object
+2020-06-23 10:28:41,296 - INFO - my_logging logger is started. Console : INFO. File (C:\Users\FRED\Documents\GitHub\FKanbans\main.log) : INFO
+2020-06-23 10:28:41,312 - ERROR -   File "C:\Users\FRED\Documents\GitHub\FKanbans\main.py", line 9, in <module>
+    from config import *
+  File "C:\Users\FRED\Documents\GitHub\FKanbans\config.py", line 22, in <module>
+    AR1146SM_l = fab_kloop(name = "7AR1179SM", item = AR1179SM, batch = 12, customer_shop = montage, kanbans_nb = 2, kanbans_qty = 6, red_zone = 1)
+
+2020-06-23 10:28:41,312 - ERROR - <class 'NameError'> - name 'AR1179SM' is not defined
+2020-06-23 10:29:10,072 - INFO - my_logging logger is started. Console : INFO. File (C:\Users\FRED\Documents\GitHub\FKanbans\main.log) : INFO
+2020-06-23 10:29:10,072 - ERROR -   File "C:\Users\FRED\Documents\GitHub\FKanbans\main.py", line 9, in <module>
+    from config import *
+
+2020-06-23 10:29:10,072 - ERROR - <class 'SyntaxError'> - invalid character in identifier (config.py, line 29)
+2020-06-23 10:29:33,168 - INFO - my_logging logger is started. Console : INFO. File (C:\Users\FRED\Documents\GitHub\FKanbans\main.log) : INFO
+2020-06-23 10:29:33,184 - ERROR -   File "C:\Users\FRED\Documents\GitHub\FKanbans\main.py", line 9, in <module>
+    from config import *
+  File "C:\Users\FRED\Documents\GitHub\FKanbans\config.py", line 39, in <module>
+    sorties_AR11790701_l = customer_kloop(name = "Conso AR11790701", item = sorties_AR11790701, workshop = expeditions, period = 8, qty = 6, period_alea_rate = 0.1, qty_alea_rate = .9)
+
+2020-06-23 10:29:33,184 - ERROR - <class 'TypeError'> - __init__() got an unexpected keyword argument 'qty_alea_rate'
+2020-06-23 10:31:10,658 - INFO - my_logging logger is started. Console : INFO. File (C:\Users\FRED\Documents\GitHub\FKanbans\main.log) : INFO
+2020-06-23 10:31:20,350 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:31:20,350 - INFO - Start production of item(7AR1179SM). 1st operation is Operation(IMPRESSION DECORS 1179 SIEGE). It will be finish at 9
+2020-06-23 10:31:20,350 - INFO - Start production of item(7AR1179SM). 1st operation is Operation(IMPRESSION DECORS 1179 SIEGE). It will be finish at 9
+2020-06-23 10:31:20,350 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:31:20,350 - INFO - Start production of item(7AR1179CM). 1st operation is Operation(IMPRESSION DECORS 1179 COUV). It will be finish at 9
+2020-06-23 10:31:20,366 - INFO - Start production of item(7AR1179CM). 1st operation is Operation(IMPRESSION DECORS 1179 COUV). It will be finish at 9
+2020-06-23 10:31:20,366 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:20,366 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:20,366 - WARNING - Consumption is not possible
+2020-06-23 10:31:20,366 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:20,366 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:20,366 - WARNING - Consumption is not possible
+2020-06-23 10:31:20,719 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:20,719 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:20,719 - WARNING - Consumption is not possible
+2020-06-23 10:31:20,719 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:20,719 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:20,719 - WARNING - Consumption is not possible
+2020-06-23 10:31:20,938 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:20,938 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:20,938 - WARNING - Consumption is not possible
+2020-06-23 10:31:20,938 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:20,938 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:20,938 - WARNING - Consumption is not possible
+2020-06-23 10:31:21,166 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:21,166 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:21,166 - WARNING - Consumption is not possible
+2020-06-23 10:31:21,166 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:21,166 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:21,166 - WARNING - Consumption is not possible
+2020-06-23 10:31:21,385 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:21,385 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:21,385 - WARNING - Consumption is not possible
+2020-06-23 10:31:21,385 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:21,385 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:21,385 - WARNING - Consumption is not possible
+2020-06-23 10:31:21,628 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:21,628 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:21,628 - WARNING - Consumption is not possible
+2020-06-23 10:31:21,628 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:21,628 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:21,628 - WARNING - Consumption is not possible
+2020-06-23 10:31:21,887 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:21,887 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:21,887 - WARNING - Consumption is not possible
+2020-06-23 10:31:21,887 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:21,887 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:21,887 - WARNING - Consumption is not possible
+2020-06-23 10:31:22,044 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:22,044 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:22,044 - WARNING - Consumption is not possible
+2020-06-23 10:31:22,044 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:22,044 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:22,044 - WARNING - Consumption is not possible
+2020-06-23 10:31:22,219 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:22,220 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:22,224 - WARNING - Consumption is not possible
+2020-06-23 10:31:22,225 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:22,225 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:22,225 - WARNING - Consumption is not possible
+2020-06-23 10:31:22,382 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:22,382 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:22,382 - WARNING - Consumption is not possible
+2020-06-23 10:31:22,382 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:22,382 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:22,382 - WARNING - Consumption is not possible
+2020-06-23 10:31:22,553 - INFO - Operation(IMPRESSION DECORS 1179 SIEGE) is finished
+2020-06-23 10:31:22,553 - INFO - Operation(IMPRESSION DECORS 1179 SIEGE) is finished
+2020-06-23 10:31:22,553 - INFO - Operation(IMPRESSION DECORS 1179 COUV) is finished
+2020-06-23 10:31:22,569 - INFO - Operation(IMPRESSION DECORS 1179 COUV) is finished
+2020-06-23 10:31:22,734 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:22,734 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:22,734 - WARNING - Consumption is not possible
+2020-06-23 10:31:22,734 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:22,734 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:22,734 - WARNING - Consumption is not possible
+2020-06-23 10:31:22,968 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:22,968 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:22,968 - WARNING - Consumption is not possible
+2020-06-23 10:31:22,968 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:22,968 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:22,968 - WARNING - Consumption is not possible
+2020-06-23 10:31:43,580 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:43,580 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:43,580 - WARNING - Consumption is not possible
+2020-06-23 10:31:43,596 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:43,596 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:43,596 - WARNING - Consumption is not possible
+2020-06-23 10:31:43,917 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:43,917 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:43,917 - WARNING - Consumption is not possible
+2020-06-23 10:31:43,917 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:43,917 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:43,917 - WARNING - Consumption is not possible
+2020-06-23 10:31:44,136 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:44,136 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:44,136 - WARNING - Consumption is not possible
+2020-06-23 10:31:44,136 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:44,136 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:44,136 - WARNING - Consumption is not possible
+2020-06-23 10:31:44,364 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:44,364 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:44,364 - WARNING - Consumption is not possible
+2020-06-23 10:31:44,364 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:44,364 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:44,364 - WARNING - Consumption is not possible
+2020-06-23 10:31:44,521 - INFO - Operation(IMPREGNATION DECORS 1179 SIEGE) is finished
+2020-06-23 10:31:44,521 - INFO - Operation(IMPREGNATION DECORS 1179 SIEGE) is finished
+2020-06-23 10:31:44,521 - INFO - Operation(IMPREGNATION DECORS 1179 COUV) is finished
+2020-06-23 10:31:44,536 - INFO - Operation(IMPREGNATION DECORS 1179 COUV) is finished
+2020-06-23 10:31:44,671 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:44,671 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:44,671 - WARNING - Consumption is not possible
+2020-06-23 10:31:44,671 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:44,671 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:44,671 - WARNING - Consumption is not possible
+2020-06-23 10:31:44,874 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:44,874 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:44,874 - WARNING - Consumption is not possible
+2020-06-23 10:31:44,874 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:44,874 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:44,874 - WARNING - Consumption is not possible
+2020-06-23 10:31:45,133 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:45,133 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:45,133 - WARNING - Consumption is not possible
+2020-06-23 10:31:45,133 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:45,133 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:45,133 - WARNING - Consumption is not possible
+2020-06-23 10:31:45,367 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:45,367 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:45,367 - WARNING - Consumption is not possible
+2020-06-23 10:31:45,367 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:45,367 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:45,367 - WARNING - Consumption is not possible
+2020-06-23 10:31:48,873 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:48,873 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:48,889 - WARNING - Consumption is not possible
+2020-06-23 10:31:48,889 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:48,889 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:48,889 - WARNING - Consumption is not possible
+2020-06-23 10:31:49,273 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:49,273 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:49,273 - WARNING - Consumption is not possible
+2020-06-23 10:31:49,273 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:49,273 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:49,273 - WARNING - Consumption is not possible
+2020-06-23 10:31:49,398 - INFO - Operation(PRESSE SIEGE DECORS 1179) is finished
+2020-06-23 10:31:49,402 - INFO - Operation(PRESSE SIEGE DECORS 1179) is finished
+2020-06-23 10:31:49,405 - INFO - Operation(PRESSE COUV DECORS 1179) is finished
+2020-06-23 10:31:49,407 - INFO - Operation(PRESSE COUV DECORS 1179) is finished
+2020-06-23 10:31:49,535 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:49,535 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:49,535 - WARNING - Consumption is not possible
+2020-06-23 10:31:49,535 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:49,535 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:49,535 - WARNING - Consumption is not possible
+2020-06-23 10:31:49,722 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:49,722 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:49,722 - WARNING - Consumption is not possible
+2020-06-23 10:31:49,722 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:49,722 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:49,722 - WARNING - Consumption is not possible
+2020-06-23 10:31:49,886 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:49,886 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:49,886 - WARNING - Consumption is not possible
+2020-06-23 10:31:49,886 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:49,886 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:49,886 - WARNING - Consumption is not possible
+2020-06-23 10:31:50,042 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:50,042 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:50,042 - WARNING - Consumption is not possible
+2020-06-23 10:31:50,042 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:50,042 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:50,042 - WARNING - Consumption is not possible
+2020-06-23 10:31:50,217 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:50,218 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:50,220 - WARNING - Consumption is not possible
+2020-06-23 10:31:50,222 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:50,223 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:50,223 - WARNING - Consumption is not possible
+2020-06-23 10:31:50,395 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:50,395 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:50,395 - WARNING - Consumption is not possible
+2020-06-23 10:31:50,395 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:50,395 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:50,395 - WARNING - Consumption is not possible
+2020-06-23 10:31:50,583 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:50,583 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:50,583 - WARNING - Consumption is not possible
+2020-06-23 10:31:50,583 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:50,583 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:50,583 - WARNING - Consumption is not possible
+2020-06-23 10:31:50,750 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:50,750 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:50,750 - WARNING - Consumption is not possible
+2020-06-23 10:31:50,750 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:50,750 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:50,750 - WARNING - Consumption is not possible
+2020-06-23 10:31:50,906 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:50,906 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:50,906 - WARNING - Consumption is not possible
+2020-06-23 10:31:50,906 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:50,906 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:50,906 - WARNING - Consumption is not possible
+2020-06-23 10:31:53,673 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:31:53,673 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:53,673 - WARNING - Consumption is not possible
+2020-06-23 10:31:53,673 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:31:53,673 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:31:53,673 - WARNING - Consumption is not possible
+2020-06-23 10:32:07,932 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:32:07,932 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:32:07,932 - WARNING - Consumption is not possible
+2020-06-23 10:32:07,932 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:32:07,932 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:32:07,948 - WARNING - Consumption is not possible
+2020-06-23 10:32:08,285 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:32:08,285 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:32:08,285 - WARNING - Consumption is not possible
+2020-06-23 10:32:08,285 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:32:08,285 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:32:08,285 - WARNING - Consumption is not possible
+2020-06-23 10:32:08,535 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:32:08,535 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:32:08,535 - WARNING - Consumption is not possible
+2020-06-23 10:32:08,535 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:32:08,535 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:32:08,535 - WARNING - Consumption is not possible
+2020-06-23 10:32:08,670 - INFO - Operation(PEINTURE MAT) is finished
+2020-06-23 10:32:08,670 - INFO - Kanban finished : kanban(7AR1179SM, qty:6, full)
+2020-06-23 10:32:08,670 - INFO - Operation(PEINTURE MAT) is finished
+2020-06-23 10:32:08,670 - INFO - Kanban finished : kanban(7AR1179SM, qty:6, full)
+2020-06-23 10:32:08,670 - INFO - Operation(PEINTURE MAT) is finished
+2020-06-23 10:32:08,670 - INFO - Kanban finished : kanban(7AR1179CM, qty:6, full)
+2020-06-23 10:32:08,685 - INFO - Operation(PEINTURE MAT) is finished
+2020-06-23 10:32:08,685 - INFO - Kanban finished : kanban(7AR1179CM, qty:6, full)
+2020-06-23 10:32:08,795 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:32:08,795 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:32:08,795 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:32:08,795 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:32:08,795 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:32:08,810 - INFO - kanban(7AR1179SM, qty:6, half-full:5) is partially consumed!
+2020-06-23 10:32:08,810 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:32:08,810 - INFO - kanban(7AR1179CM, qty:6, half-full:5) is partially consumed!
+2020-06-23 10:32:08,826 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:32:08,826 - INFO - Start production of item(7AR11790701). 1st operation is Operation(Montage AR11790701). It will be finish at 31.25
+2020-06-23 10:32:08,826 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:32:08,826 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:32:08,826 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:32:08,826 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:32:08,826 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:32:08,826 - INFO - kanban(7AR1179SM, qty:6, half-full:4) is partially consumed!
+2020-06-23 10:32:08,826 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:32:08,841 - INFO - kanban(7AR1179CM, qty:6, half-full:4) is partially consumed!
+2020-06-23 10:32:08,841 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:32:08,841 - INFO - Start production of item(7AR11794101). 1st operation is Operation(Montage AR117941²01). It will be finish at 31.25
+2020-06-23 10:32:09,132 - INFO - Operation(Montage AR11790701) is finished
+2020-06-23 10:32:09,132 - INFO - Kanban finished : kanban(7AR11790701, qty:1, full)
+2020-06-23 10:32:09,132 - INFO - Operation(Montage AR117941²01) is finished
+2020-06-23 10:32:09,132 - INFO - Kanban finished : kanban(7AR11794101, qty:1, full)
+2020-06-23 10:32:09,257 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:32:09,257 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:32:09,257 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:32:09,257 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:32:09,257 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:32:09,257 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:32:09,257 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:32:09,273 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:32:09,273 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:32:09,273 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:32:09,273 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:32:09,273 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:32:09,470 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:32:09,470 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:32:09,470 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:32:09,470 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:32:09,470 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:32:09,470 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:32:09,470 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:32:09,486 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:32:09,486 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:32:09,486 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:32:09,486 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:32:09,486 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:32:09,736 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:32:09,736 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:32:09,736 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:32:09,736 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:32:09,736 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:32:09,736 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:32:09,736 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:32:09,751 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:32:09,751 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:32:09,751 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:32:09,751 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:32:09,751 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:32:09,916 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:32:09,916 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:32:09,916 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:32:09,916 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:32:09,916 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:32:09,916 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:32:09,916 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:32:09,932 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:32:14,072 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:32:14,072 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:32:14,072 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:32:14,072 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:32:14,072 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:32:14,072 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:32:14,072 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:32:14,072 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:32:14,072 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:32:14,072 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:32:14,088 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:32:14,088 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:32:18,669 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:32:18,669 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:32:18,669 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:32:18,669 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:32:18,669 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:32:18,669 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:32:18,685 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:32:18,685 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:32:18,685 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:32:18,685 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:32:18,685 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:32:18,685 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:32:20,286 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:32:20,286 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:32:20,286 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:32:20,286 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:32:20,286 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:32:20,286 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:32:20,286 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:32:20,286 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:32:20,301 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:32:20,301 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:32:20,301 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:32:20,301 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:32:21,500 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:32:21,500 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:32:21,500 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:32:21,500 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:32:21,500 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:32:21,500 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:32:21,515 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:32:21,515 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:32:21,515 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:32:21,515 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:32:21,515 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:32:21,515 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:32:26,577 - INFO - my_logging logger is started. Console : INFO. File (C:\Users\FRED\Documents\GitHub\FKanbans\main.log) : INFO
+2020-06-23 10:32:53,532 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:32:53,532 - INFO - Start production of item(7AR1179SM). 1st operation is Operation(IMPRESSION DECORS 1179 SIEGE). It will be finish at 9
+2020-06-23 10:32:53,532 - INFO - Start production of item(7AR1179SM). 1st operation is Operation(IMPRESSION DECORS 1179 SIEGE). It will be finish at 9
+2020-06-23 10:32:53,532 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:32:53,532 - INFO - Start production of item(7AR1179CM). 1st operation is Operation(IMPRESSION DECORS 1179 COUV). It will be finish at 9
+2020-06-23 10:32:53,532 - INFO - Start production of item(7AR1179CM). 1st operation is Operation(IMPRESSION DECORS 1179 COUV). It will be finish at 9
+2020-06-23 10:32:53,532 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:32:53,532 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:32:53,532 - WARNING - Consumption is not possible
+2020-06-23 10:32:53,532 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:32:53,532 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:32:53,532 - WARNING - Consumption is not possible
+2020-06-23 10:33:17,020 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:33:17,020 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:33:17,021 - WARNING - Consumption is not possible
+2020-06-23 10:33:17,021 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:33:17,022 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:33:17,022 - WARNING - Consumption is not possible
+2020-06-23 10:33:25,609 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:33:25,609 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:33:25,609 - WARNING - Consumption is not possible
+2020-06-23 10:33:25,609 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:33:25,609 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:33:25,609 - WARNING - Consumption is not possible
+2020-06-23 10:33:33,469 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:33:33,469 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:33:33,469 - WARNING - Consumption is not possible
+2020-06-23 10:33:33,485 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:33:33,485 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:33:33,485 - WARNING - Consumption is not possible
+2020-06-23 10:33:37,780 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:33:37,796 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:33:37,796 - WARNING - Consumption is not possible
+2020-06-23 10:33:37,796 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:33:37,796 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:33:37,796 - WARNING - Consumption is not possible
+2020-06-23 10:33:38,565 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:33:38,565 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:33:38,565 - WARNING - Consumption is not possible
+2020-06-23 10:33:38,565 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:33:38,565 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:33:38,565 - WARNING - Consumption is not possible
+2020-06-23 10:33:39,319 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:33:39,319 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:33:39,319 - WARNING - Consumption is not possible
+2020-06-23 10:33:39,319 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:33:39,319 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:33:39,334 - WARNING - Consumption is not possible
+2020-06-23 10:33:39,885 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:33:39,885 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:33:39,885 - WARNING - Consumption is not possible
+2020-06-23 10:33:39,885 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:33:39,885 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:33:39,885 - WARNING - Consumption is not possible
+2020-06-23 10:33:40,377 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:33:40,377 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:33:40,377 - WARNING - Consumption is not possible
+2020-06-23 10:33:40,377 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:33:40,393 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:33:40,393 - WARNING - Consumption is not possible
+2020-06-23 10:34:43,946 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:34:43,946 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:34:43,946 - WARNING - Consumption is not possible
+2020-06-23 10:34:43,946 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:34:43,946 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:34:43,946 - WARNING - Consumption is not possible
+2020-06-23 10:34:45,161 - INFO - Operation(IMPRESSION DECORS 1179 SIEGE) is finished
+2020-06-23 10:34:45,161 - INFO - Operation(IMPRESSION DECORS 1179 SIEGE) is finished
+2020-06-23 10:34:45,161 - INFO - Operation(IMPRESSION DECORS 1179 COUV) is finished
+2020-06-23 10:34:45,177 - INFO - Operation(IMPRESSION DECORS 1179 COUV) is finished
+2020-06-23 10:34:48,637 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:34:48,653 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:34:48,653 - WARNING - Consumption is not possible
+2020-06-23 10:34:49,395 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:34:49,395 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:34:49,395 - WARNING - Consumption is not possible
+2020-06-23 10:34:49,395 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:34:49,395 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:34:49,395 - WARNING - Consumption is not possible
+2020-06-23 10:34:51,332 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:34:51,332 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:34:51,348 - WARNING - Consumption is not possible
+2020-06-23 10:34:51,348 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:34:51,348 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:34:51,348 - WARNING - Consumption is not possible
+2020-06-23 10:34:52,810 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:34:52,810 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:34:52,810 - WARNING - Consumption is not possible
+2020-06-23 10:34:52,810 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:34:52,810 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:34:52,810 - WARNING - Consumption is not possible
+2020-06-23 10:34:54,148 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:34:54,148 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:34:54,164 - WARNING - Consumption is not possible
+2020-06-23 10:34:54,440 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:34:54,440 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:34:54,440 - WARNING - Consumption is not possible
+2020-06-23 10:34:54,455 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:34:54,455 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:34:54,455 - WARNING - Consumption is not possible
+2020-06-23 10:35:03,717 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:35:03,717 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:03,732 - WARNING - Consumption is not possible
+2020-06-23 10:35:03,732 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:35:03,732 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:03,732 - WARNING - Consumption is not possible
+2020-06-23 10:35:04,149 - INFO - Operation(IMPREGNATION DECORS 1179 SIEGE) is finished
+2020-06-23 10:35:04,164 - INFO - Operation(IMPREGNATION DECORS 1179 SIEGE) is finished
+2020-06-23 10:35:04,164 - INFO - Operation(IMPREGNATION DECORS 1179 COUV) is finished
+2020-06-23 10:35:04,164 - INFO - Operation(IMPREGNATION DECORS 1179 COUV) is finished
+2020-06-23 10:35:04,548 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:35:04,548 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:04,548 - WARNING - Consumption is not possible
+2020-06-23 10:35:04,548 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:35:04,548 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:04,548 - WARNING - Consumption is not possible
+2020-06-23 10:35:05,129 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:35:05,129 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:05,129 - WARNING - Consumption is not possible
+2020-06-23 10:35:05,129 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:35:05,129 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:05,129 - WARNING - Consumption is not possible
+2020-06-23 10:35:05,364 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:35:05,364 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:05,364 - WARNING - Consumption is not possible
+2020-06-23 10:35:05,364 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:35:05,364 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:05,364 - WARNING - Consumption is not possible
+2020-06-23 10:35:06,547 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:35:06,547 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:06,547 - WARNING - Consumption is not possible
+2020-06-23 10:35:06,547 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:35:06,547 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:06,547 - WARNING - Consumption is not possible
+2020-06-23 10:35:07,853 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:35:07,853 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:07,853 - WARNING - Consumption is not possible
+2020-06-23 10:35:07,868 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:35:07,868 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:07,868 - WARNING - Consumption is not possible
+2020-06-23 10:35:09,145 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:35:09,145 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:09,145 - WARNING - Consumption is not possible
+2020-06-23 10:35:09,145 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:35:09,145 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:09,145 - WARNING - Consumption is not possible
+2020-06-23 10:35:09,883 - INFO - Operation(PRESSE SIEGE DECORS 1179) is finished
+2020-06-23 10:35:09,898 - INFO - Operation(PRESSE SIEGE DECORS 1179) is finished
+2020-06-23 10:35:09,898 - INFO - Operation(PRESSE COUV DECORS 1179) is finished
+2020-06-23 10:35:09,898 - INFO - Operation(PRESSE COUV DECORS 1179) is finished
+2020-06-23 10:35:12,635 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:35:12,635 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:12,635 - WARNING - Consumption is not possible
+2020-06-23 10:35:12,635 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:35:12,635 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:12,635 - WARNING - Consumption is not possible
+2020-06-23 10:35:14,234 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:35:14,235 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:14,235 - WARNING - Consumption is not possible
+2020-06-23 10:35:14,235 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:35:14,235 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:14,235 - WARNING - Consumption is not possible
+2020-06-23 10:35:15,835 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:35:15,835 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:15,835 - WARNING - Consumption is not possible
+2020-06-23 10:35:15,835 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:35:15,835 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:15,835 - WARNING - Consumption is not possible
+2020-06-23 10:35:17,331 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:35:17,331 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:17,331 - WARNING - Consumption is not possible
+2020-06-23 10:35:17,331 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:35:17,331 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:17,331 - WARNING - Consumption is not possible
+2020-06-23 10:35:18,822 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:35:18,822 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:18,838 - WARNING - Consumption is not possible
+2020-06-23 10:35:18,838 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:35:18,838 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:18,838 - WARNING - Consumption is not possible
+2020-06-23 10:35:20,963 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:35:20,963 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:20,963 - WARNING - Consumption is not possible
+2020-06-23 10:35:20,963 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:35:20,963 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:20,963 - WARNING - Consumption is not possible
+2020-06-23 10:35:21,945 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:35:21,945 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:21,945 - WARNING - Consumption is not possible
+2020-06-23 10:35:21,945 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:35:21,960 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:21,960 - WARNING - Consumption is not possible
+2020-06-23 10:35:22,132 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:35:22,132 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:22,132 - WARNING - Consumption is not possible
+2020-06-23 10:35:22,132 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:35:22,132 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:22,132 - WARNING - Consumption is not possible
+2020-06-23 10:35:22,682 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:35:22,682 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:22,682 - WARNING - Consumption is not possible
+2020-06-23 10:35:22,682 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:35:22,682 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:22,698 - WARNING - Consumption is not possible
+2020-06-23 10:35:23,145 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:35:23,145 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:23,145 - WARNING - Consumption is not possible
+2020-06-23 10:35:23,145 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:35:23,160 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:23,160 - WARNING - Consumption is not possible
+2020-06-23 10:35:23,623 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:35:23,623 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:23,623 - WARNING - Consumption is not possible
+2020-06-23 10:35:23,638 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:35:23,638 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:23,638 - WARNING - Consumption is not possible
+2020-06-23 10:35:24,070 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:35:24,070 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:24,070 - WARNING - Consumption is not possible
+2020-06-23 10:35:24,085 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:35:24,085 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:24,085 - WARNING - Consumption is not possible
+2020-06-23 10:35:24,547 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:35:24,547 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:24,563 - WARNING - Consumption is not possible
+2020-06-23 10:35:24,563 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:35:24,563 - WARNING - Not enough stock in kloop(7AR1179SM). 1 parts are missing.
+2020-06-23 10:35:24,563 - WARNING - Consumption is not possible
+2020-06-23 10:35:24,885 - INFO - Operation(PEINTURE MAT) is finished
+2020-06-23 10:35:24,885 - INFO - Kanban finished : kanban(7AR1179SM, qty:6, full)
+2020-06-23 10:35:24,900 - INFO - Operation(PEINTURE MAT) is finished
+2020-06-23 10:35:24,900 - INFO - Kanban finished : kanban(7AR1179SM, qty:6, full)
+2020-06-23 10:35:24,900 - INFO - Operation(PEINTURE MAT) is finished
+2020-06-23 10:35:24,900 - INFO - Kanban finished : kanban(7AR1179CM, qty:6, full)
+2020-06-23 10:35:24,900 - INFO - Operation(PEINTURE MAT) is finished
+2020-06-23 10:35:24,900 - INFO - Kanban finished : kanban(7AR1179CM, qty:6, full)
+2020-06-23 10:35:25,224 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:35:25,224 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:35:25,224 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:35:25,239 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:35:25,239 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:35:25,239 - INFO - kanban(7AR1179SM, qty:6, half-full:5) is partially consumed!
+2020-06-23 10:35:25,239 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:35:25,239 - INFO - kanban(7AR1179CM, qty:6, half-full:5) is partially consumed!
+2020-06-23 10:35:25,239 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:35:25,239 - INFO - Start production of item(7AR11790701). 1st operation is Operation(Montage AR11790701). It will be finish at 31.25
+2020-06-23 10:35:25,239 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:35:25,239 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:35:25,239 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:35:25,239 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:35:25,255 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:35:25,255 - INFO - kanban(7AR1179SM, qty:6, half-full:4) is partially consumed!
+2020-06-23 10:35:25,255 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:35:25,255 - INFO - kanban(7AR1179CM, qty:6, half-full:4) is partially consumed!
+2020-06-23 10:35:25,255 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:35:25,255 - INFO - Start production of item(7AR11794101). 1st operation is Operation(Montage AR117941²01). It will be finish at 31.25
+2020-06-23 10:35:53,203 - INFO - Operation(Montage AR11790701) is finished
+2020-06-23 10:35:53,203 - INFO - Kanban finished : kanban(7AR11790701, qty:1, full)
+2020-06-23 10:35:53,219 - INFO - Operation(Montage AR117941²01) is finished
+2020-06-23 10:35:53,219 - INFO - Kanban finished : kanban(7AR11794101, qty:1, full)
+2020-06-23 10:35:57,175 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:35:57,175 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:35:57,175 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:35:57,175 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:35:57,175 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:35:57,175 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:35:57,175 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:35:57,175 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:35:57,175 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:35:57,175 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:35:57,175 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:35:57,175 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:01,833 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:01,833 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:01,833 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:01,833 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:01,833 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:01,833 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:01,833 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:01,833 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:01,833 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:36:01,833 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:01,833 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:01,833 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:04,023 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:04,023 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:04,038 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:04,038 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:04,038 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:04,038 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:04,038 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:04,038 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:04,038 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:36:04,038 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:04,038 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:04,038 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:04,759 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:04,759 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:04,759 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:04,759 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:04,759 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:04,759 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:04,759 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:04,759 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:04,759 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:36:04,759 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:04,759 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:04,759 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:11,591 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:11,591 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:11,591 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:11,591 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:11,591 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:11,591 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:11,591 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:11,591 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:12,083 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:12,083 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:12,099 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:12,099 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:12,099 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:12,099 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:12,099 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:12,099 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:12,099 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:36:12,099 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:12,099 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:12,099 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:12,819 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:12,819 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:12,819 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:12,819 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:12,819 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:12,819 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:12,819 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:12,819 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:12,819 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:36:12,835 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:12,835 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:12,835 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:13,495 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:13,495 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:13,495 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:13,495 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:13,511 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:13,511 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:13,511 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:13,511 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:13,511 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:36:13,511 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:13,511 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:13,511 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:14,176 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:14,176 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:14,176 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:14,176 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:14,176 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:14,192 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:14,192 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:14,192 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:14,192 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:36:14,192 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:14,192 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:14,192 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:14,836 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:14,836 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:14,836 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:14,836 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:14,836 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:14,836 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:14,836 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:14,836 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:14,851 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:36:14,851 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:14,851 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:14,851 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:15,816 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:15,817 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:15,819 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:15,822 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:15,822 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:15,823 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:15,824 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:15,824 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:15,825 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:36:15,826 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:15,827 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:15,829 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:16,498 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:16,514 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:16,514 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:16,514 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:16,514 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:16,514 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:16,514 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:16,514 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:16,514 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:36:16,514 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:16,514 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:16,514 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:17,080 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:17,080 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:17,080 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:17,080 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:17,080 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:17,080 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:17,080 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:17,080 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:17,252 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:17,252 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:17,252 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:17,268 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:17,268 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:17,268 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:17,268 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:17,268 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:17,268 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:36:17,268 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:17,268 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:17,268 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:17,833 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:17,833 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:17,833 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:17,833 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:17,833 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:17,833 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:17,833 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:17,833 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:17,833 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:36:17,833 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:17,833 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:17,833 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:18,357 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:18,357 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:18,357 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:18,373 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:18,373 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:18,373 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:18,373 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:18,373 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:18,373 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:36:18,373 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:18,373 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:18,373 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:18,561 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:18,561 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:18,561 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:18,561 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:18,561 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:18,561 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:18,561 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:18,561 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:18,561 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:36:18,561 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:18,561 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:18,561 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:19,064 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:19,080 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:19,080 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:19,080 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:19,080 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:19,080 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:19,080 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:19,080 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:19,252 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:19,252 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:19,252 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:19,252 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:19,252 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:19,252 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:19,267 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:19,267 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:19,377 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:19,392 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:19,392 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:19,392 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:19,392 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:19,392 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:19,392 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:19,392 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:19,392 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:36:19,392 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:19,392 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:19,392 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:20,176 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:20,176 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:20,176 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:20,176 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:20,176 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:20,176 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:20,176 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:20,192 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:20,852 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:20,868 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:20,868 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:20,868 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:20,868 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:20,868 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:20,868 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:20,868 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:20,868 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:36:20,868 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:20,868 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:20,868 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:21,064 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:21,064 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:21,064 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:21,064 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:21,064 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:21,064 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:21,080 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:21,080 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:21,080 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:36:21,080 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:21,080 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:21,080 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:21,314 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:21,314 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:21,314 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:21,314 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:21,314 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:21,314 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:21,330 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:21,330 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:21,330 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:36:21,330 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:21,345 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:21,345 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:21,542 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:21,542 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:21,542 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:21,542 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:21,542 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:21,558 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:21,558 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:21,558 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:21,558 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:36:21,558 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:21,573 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:21,573 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:21,761 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:21,761 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:21,761 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:21,761 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:21,761 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:21,761 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:21,777 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:21,777 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:21,777 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:36:21,777 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:21,777 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:21,792 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:22,005 - INFO - kloop(7AR1179SM) : need production
+2020-06-23 10:36:22,005 - WARNING - Not enougth kanbans in kloop(7AR1179SM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:22,005 - INFO - kloop(7AR1179CM) : need production
+2020-06-23 10:36:22,005 - WARNING - Not enougth kanbans in kloop(7AR1179CM) to produce the batch. Produce only 0 vs 12
+2020-06-23 10:36:22,005 - INFO - kloop(7AR11790701) : need production
+2020-06-23 10:36:22,005 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:22,020 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:22,020 - WARNING - Not enougth kanbans in kloop(7AR11790701) to produce the batch. Produce only 0 vs 1
+2020-06-23 10:36:22,020 - INFO - kloop(7AR11794101) : need production
+2020-06-23 10:36:22,020 - INFO - Ok. Stock is enough in kloop(7AR1179SM)
+2020-06-23 10:36:22,020 - INFO - Ok. Stock is enough in kloop(7AR1179CM)
+2020-06-23 10:36:22,036 - WARNING - Not enougth kanbans in kloop(7AR11794101) to produce the batch. Produce only 0 vs 1
