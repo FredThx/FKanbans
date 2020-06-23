@@ -1,5 +1,5 @@
 # -*-coding:Latin-1 -*
-from ui_object import *
+from .ui_object import *
 
 class item(ui_object):
 	""" Product
@@ -15,10 +15,10 @@ class item(ui_object):
 			self.cost = cost
 		else:
 			self.cost = self.calculate_cost()
-	
+
 	def __str__(self):
 		return "item(%s)"%(self.name)
-		
+
 	def last_operation(self): # Inutil
 		''' return the last operation of the item (ie the output one)
 		'''
@@ -33,7 +33,7 @@ class item(ui_object):
 			return self.operations[0]
 		else:
 			return None
-	
+
 	def calculate_cost(self):
 		'''calculate the cost of the item
 		'''

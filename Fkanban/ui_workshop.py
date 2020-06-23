@@ -1,7 +1,7 @@
 # -*-coding:Latin-1 -*
-from ui_object import *
-from workshop import *
-import Tkinter
+from .ui_object import *
+from .workshop import *
+import tkinter as Tkinter
 import logging
 
 class ui_workshop(Tkinter.Tk, workshop):
@@ -16,6 +16,4 @@ class ui_workshop(Tkinter.Tk, workshop):
 		column = 0
 		for loop in loops:
 			loop.ui_init(self, column, 0)
-			column+=1			
-		
-		
+			column+=1

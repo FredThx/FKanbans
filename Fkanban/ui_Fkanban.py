@@ -1,10 +1,11 @@
 # -*-coding:Latin-1 -*
 
-import Tkinter
+import tkinter as Tkinter
 import logging
-from Fkanban import *
-from ui_stat import *
-from ui_workshop import *
+from .Fkanban import *
+from .ui_stat import *
+from .ui_workshop import *
+
 
 class ui_Fkanban(Tkinter.Tk, Fkanban):
 	''' Interface graphique Application Fkanban
@@ -41,26 +42,26 @@ class ui_Fkanban(Tkinter.Tk, Fkanban):
 			column = 0
 			for loop in self.loops:
 				loop.ui_init(self, column, 1)
-				column+=1						
-		
+				column+=1
+
 		self.ui_update_kanbans()
 		self.mainloop()
-		
+
 	def ui_auto_run(self):
 		'''on nutton 'auto run' or 'pause' pressed
 		'''
-		if self.automatic_time: 
+		if self.automatic_time:
 			self.bt_auto['text'] = 'Auto run'
 		else:
 			self.bt_auto['text'] = 'pause'
 		self.auto_run()
-	
+
 	def on_bt_start(self):
 		''' on start button pressed
 		'''
 		self.run_actions()
 		self.update()
-		
+
 	def ui_update_kanbans(self):
 		logging.debug("Updating all ui_kanban")
 		for loop in self.loops:
@@ -69,12 +70,12 @@ class ui_Fkanban(Tkinter.Tk, Fkanban):
 			# loop.place_kanbans()
 		self.update()
 		self.update_time()
-	
+
 	def update_time(self):
 		''' Change the time on ui
 		'''
 		self.ui_time['text']=str(self.time)
-	
+
 	def ui_stat_stock(self):
 		''' Show stock statistics windows
 		'''

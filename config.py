@@ -5,7 +5,7 @@ from FUTIL.my_logging import *
 
 deville = place("Deville") # not use!!!
 
-from Tkinter import *
+from tkinter import *
 
 
 montage = workshop("Montage")
@@ -48,12 +48,12 @@ P0029988 = item("P0029988 - RENVOI DE CENDRE", \
 	operation(plieuses, [], "Pliage - P0029988",100,4)], cost = 1.38)
 P0029988_l= fab_kloop( name = "RENVOI DE CENDRE P0029988", item = P0029988, \
 				batch = 64, customer_shop = soudure, kanbans_nb = 3, kanbans_qty = 32, red_zone = 2)
-				
+
 P0037433 = item("P0037433 - MONTANT AVANT", \
 	[operation(presses, [], "200T - P0037433",380,4)], cost = 0.73)
 P0037433_l= fab_kloop( name = "MONTANT AVANT P0037433", item = P0037433, \
 				batch = 128, customer_shop = soudure, kanbans_nb = 6, kanbans_qty = 32, red_zone = 4)
-				
+
 P0036682 = item("P0036682 - DEVANT DE CHASSIS", \
 	[operation(laser, [], "LASER - P0036682",113,8), \
 	operation(plieuses, [], "Pliage - P0036682",100,4)], cost = 2.07)
@@ -80,19 +80,19 @@ P0050909_l = fab_kloop( name = "EQUERRE P0050909", item = P0050909, \
 P0050915 = item("P0050915 - SUPPORT VOLET", \
 	[operation(laser, [], "LASER - P0050915",145,8), \
 	operation(plieuses, [], "Pliage - P0050915",99,4), \
-        operation(peinture, [], "Peinture - P0050915",500,5)], cost = 1.75) 
+        operation(peinture, [], "Peinture - P0050915",500,5)], cost = 1.75)
 P0050915_l = fab_kloop( name = "SUPPORT VOLET P0050915", item = P0050915, \
                                 batch = 64, customer_shop = montage, kanbans_nb = 4, kanbans_qty = 32, red_zone = 3)
 
 P0051718 = item("P0051718 - DECOR", \
 	[operation(laser, [], "LASER - P0051718",41,8), \
-         operation(plieuses, [], "Pliage - P0051718",61,4)]) 
+         operation(plieuses, [], "Pliage - P0051718",61,4)])
 P0051718_l = fab_kloop( name = "DECOR P0051718", item = P0051718, \
                                 batch = 64, customer_shop = plieuses, kanbans_nb = 4, kanbans_qty = 16, red_zone = 2)
 
 P0051718_P06S = item("P0051718_P06S - DECOR", \
 	[operation(plieuses, [nomenclature_link(P0051718,1)], "Pliage - P0051718_P06S",46,4), \
-         operation(peinture, [], "Peinture - P0051718_P06S",30,5)], cost = 23.26) 
+         operation(peinture, [], "Peinture - P0051718_P06S",30,5)], cost = 23.26)
 P0051718_P06S_l = fab_kloop( name = "DECOR P0051718_P06S", item = P0051718_P06S, \
                                 batch = 32, customer_shop = montage, kanbans_nb = 4, kanbans_qty = 8, red_zone = 2)
 
@@ -116,7 +116,7 @@ P0052288_P06S_l= fab_kloop( name = "CHARNIERE NOIRE P0052288_P06S", item = P0052
 P0052360 = item("P0052360 - SUPPORT CHASSIS", \
 	[operation(laser, [], "LASER - P0052360",93,8), \
 	operation(plieuses, [], "Pliage - P0052360",60,4), \
-        operation(peinture, [], "Peinture - P0052360",37,5)], cost = 7.58) 
+        operation(peinture, [], "Peinture - P0052360",37,5)], cost = 7.58)
 P0052360_l = fab_kloop( name = "SUPPORT CHASSIS P0052360", item = P0052360, \
                                 batch = 64, customer_shop = montage, kanbans_nb = 4, kanbans_qty = 32, red_zone = 2)
 
@@ -133,12 +133,12 @@ P0A53548 = item("P0A53548 - VIROLE A PLAT", \
 	operation(presses, [], "320T - P0A53548",160,4)], cost = 8)
 P0A53548_l = fab_kloop( name = "VIROLE A PLAT P0A53548", item = P0A53548, \
 				batch = 128, customer_shop = plieuses, kanbans_nb = 6, kanbans_qty = 32, red_zone = 4)
-		
+
 P0053548 = item("P0053548 - VIROLE", \
 	[operation(plieuses, [nomenclature_link(P0A53548, 1)], "Pliage - P0053548", 30, 4)], cost = 11.11)
 P0053548_l= fab_kloop( name = "VIROLE P0053548", item = P0053548, \
 				batch = 32, customer_shop = soudure, kanbans_nb = 4, kanbans_qty = 16, red_zone = 2)
-				
+
 P0T53071_P06S = item("P0T53071 - BUSE", \
 		[operation(usinage, [], "USINAGE - P0T53071",160,4), \
 		operation(peinture, [], "Peinture - P0T53071",220,5)], cost = 7.50)
@@ -168,7 +168,7 @@ P0T51457_P06S = item("P0T51457_P06S - PORTE NOIR", \
                  operation(peinture, [], "Peinture - P0T51457_P06S",63,5)], cost = 23.62)
 P0T51457_P06S_l = fab_kloop( name = "PORTE NOIRE P0T51457_P06S", item = P0T51457_P06S, \
 				batch = 32, customer_shop = montage, kanbans_nb = 4, kanbans_qty = 32, red_zone = 3)
-				
+
 P0731109 = item("P0731109 - VIS")
 
 P0T11271_P06S = item("P0T11271_P06S - TAMPON NOIR", \
@@ -212,26 +212,26 @@ P0053061_l= fab_kloop( name = "ENS. VOLET DE BUSE P0053061", item = P0053061, \
 P0052600_P06S = item("P0052600_P06S - NICHE PEINT NOIR", \
 	[operation(laser, [], "LASER - P0052600_P06S",75,8), \
 	operation(plieuses, [], "Pliage - P0052600_P06S",45,4), \
-        operation(peinture, [], "Peinture - P0052600_P06S",49,5)], cost = 14.30) 
+        operation(peinture, [], "Peinture - P0052600_P06S",49,5)], cost = 14.30)
 P0052600_P06S_l = fab_kloop( name = "NICHE PEINT NOIR P0052600_P06S", item = P0052600_P06S, \
                                 batch = 64, customer_shop = montage, kanbans_nb = 3, kanbans_qty = 32, red_zone = 2)
 
 P0052601_P06S = item("P0052601_P06S 1- DECOR PEINT NOIR", \
 	[operation(laser, [], "LASER - P0052601_P06S",38,8), \
 	operation(plieuses, [], "Pliage - P0052601_P06S",65,4), \
-        operation(peinture, [], "Peinture - P0052601_P06S",29,5)], cost = 26.2) 
+        operation(peinture, [], "Peinture - P0052601_P06S",29,5)], cost = 26.2)
 P0052601_P06S_l = fab_kloop( name = "DECOR PEINT NOIR P0052601_P06S", item = P0052601_P06S, \
                                 batch = 64, customer_shop = montage, kanbans_nb = 3, kanbans_qty = 32, red_zone = 2)
 
 P0052602_P06S = item("P0052602_P06S - PLAQUE DE SOL NOIR", \
 	[operation(laser, [], "LASER - P0052602_P06S",84,8), \
-         operation(peinture, [], "Peinture - P0052602_P06S",49,5)], cost = 11.2) 
+         operation(peinture, [], "Peinture - P0052602_P06S",49,5)], cost = 11.2)
 P0052602_P06S_l = fab_kloop( name = "PLAQUE DE SOL NOIR P0052602_P06S", item = P0052602_P06S, \
                                 batch = 64, customer_shop = montage, kanbans_nb = 3, kanbans_qty = 32, red_zone = 2)
 
 P0052934 = item("P0052934 - SUPPORT VOLET", \
 	[operation(laser, [], "LASER - P0052934",140,8), \
-	operation(plieuses, [], "Pliage - P0052934",90,4)], cost = 2.15) 
+	operation(plieuses, [], "Pliage - P0052934",90,4)], cost = 2.15)
 P0052934_l = fab_kloop( name = "SUPPORT VOLET P0052934", item = P0052934, \
                                 batch = 64, customer_shop = montage, kanbans_nb = 3, kanbans_qty = 32, red_zone = 2)
 
@@ -239,13 +239,13 @@ P0711412 = item("P0711412 - VIS")
 
 P0052931 = item("P0052931 - DEVANT DE CHASSIS", \
 	[operation(laser, [], "LASER - P0052931",139,8), \
-	operation(plieuses, [], "Pliage - P0052931",99,4)], cost = 2.15) 
+	operation(plieuses, [], "Pliage - P0052931",99,4)], cost = 2.15)
 P0052931_l = fab_kloop( name = "DEVANT DE CHASSIS", item = P0052931, \
                                 batch = 64, customer_shop = montage, kanbans_nb = 3, kanbans_qty = 32, red_zone = 2)
 
 P0052932 = item("P0052932 - MONTANT AVANT", \
 	[operation(laser, [], "LASER - P0052932",200,8), \
-	operation(plieuses, [], "Pliage - P0052932",415,4)], cost = 0.88) 
+	operation(plieuses, [], "Pliage - P0052932",415,4)], cost = 0.88)
 P0052932_l = fab_kloop( name = "MONTANT AVANT", item = P0052932, \
                                 batch = 64, customer_shop = montage, kanbans_nb = 3, kanbans_qty = 32, red_zone = 2)
 
@@ -318,7 +318,7 @@ c077aa = item("C077AA - POELE A BOIS Saphir", \
                          nomenclature_link(P0053061,1), \
                          nomenclature_link(P0050915,1)], \
                    "Montage C077AA",4,0)])
-	
+
 c077aa_l = fab_kloop(name = "POELE A BOIS Saphir C077AA", item = c077aa, \
 			batch = 32, customer_shop = expeditions, kanbans_nb = 5, kanbans_qty = 32, red_zone = 2)
 
@@ -348,7 +348,7 @@ c077ah = item("C077AH - POELE A BOIS Grand Saphir", \
                          nomenclature_link(P0052602_P06S,1), \
                          nomenclature_link(P0050915,1)], \
                    "Montage C077AH",4,0)])
-	
+
 c077ah_l = fab_kloop(name = "POELE A BOIS Grand Saphir C077AH", item = c077ah, \
 			batch = 32, customer_shop = expeditions, kanbans_nb = 5, kanbans_qty = 32, red_zone = 1)
 
@@ -357,7 +357,7 @@ sortie_c077aa_l = customer_kloop(name = "Conso C077AA", item = sortie_c077aa, wo
 
 sortie_c077ah = item("Expeditions", [operation(expeditions, [nomenclature_link(c077ah,1)],"Consos:")])
 sortie_c077ah_l = customer_kloop(name = "Conso C077AH", item = sortie_c077ah, workshop = expeditions, period = 8, qty = 4, qty_alea_range = 3, period_alea_rate = 1)
-		
+
 
 mes_ateliers = [montage, peinture, soudure, plieuses, laser, presses, ldc, usinage] #inutil!!!
 
@@ -386,4 +386,3 @@ mes_boucles = [sortie_c077aa_l, sortie_c077ah_l, \
 
 
 app = ui_Fkanban(mes_ateliers, mes_boucles, speed = 15, multi_tk = False)
-				

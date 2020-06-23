@@ -1,5 +1,5 @@
 # -*-coding:Latin-1 -*
-from ui_object import *
+from .ui_object import *
 
 class place(ui_object):
 	''' a place to produice

@@ -1,22 +1,22 @@
 # -*-coding:Latin-1 -*
 
 import logging
-from operation import *
-from ui_object import *
-from kanban import *
-from item import *
-from ui_object import *
+#from operation import *
+from .ui_object import *
+from .kanban import *
+from .item import *
+
 
 class operation(ui_operation):
 	''' fabrication operation
 	'''
 	def __init__(self, workshop , nomenclature = [] , name = "unnamed", qty_per_hour = 999999, setup_time = 0, fkanban = None):
 		'''Initialisation
-			- workshop		:	workshop 
+			- workshop		:	workshop
 			- name			:	name of the operation
 			- nomenclature	:	list of nomenclature_link
 			- qty_per_hour	:	qty of item produced per a day (on one team)
-			- setup_time	:	nb of setup hours 
+			- setup_time	:	nb of setup hours
 			- fkanban		:	the parent envirronment
 		'''
 		self.workshop = workshop
@@ -25,10 +25,10 @@ class operation(ui_operation):
 		self.qty_per_hour = qty_per_hour
 		self.setup_time = setup_time
 		self.fkanban = fkanban
-	
+
 	def __str__(self):
 		return "Operation(%s)"%(self.name)
-	
+
 	def _consume(self, qty, real = True):
 		''' check if we have  has enouth stock to produce
 			return True is producing is possible, else return False
@@ -68,7 +68,7 @@ class operation(ui_operation):
 		if not real:
 			self.ui_out_of_stock(False)
 		return True
-	
+
 	def consume(self, qty):
 		''' Consume the nomenclatyure of the item if possible
 			return True is producing is possible, else return False
@@ -81,7 +81,7 @@ class operation(ui_operation):
 		else:
 			logging.warning("Produce of %s fail."%(self))
 			return False
-	
+
 	def inventory(self):
 		'''Calculate the stock cost in the operation
 		'''
@@ -89,4 +89,3 @@ class operation(ui_operation):
 		for link in self.nomenclature:
 			cost += link.inventory()
 		return cost
-		

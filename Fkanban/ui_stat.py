@@ -1,7 +1,7 @@
 # -*-coding:Latin-1 -*
-import Tkinter
+import tkinter as Tkinter
 import logging
-from kloop import *
+from .kloop import *
 
 class ui_stat(Tkinter.Tk):
 	'''Windows for stat.
@@ -18,8 +18,8 @@ class ui_stat(Tkinter.Tk):
 		self.list = Tkinter.Listbox(self, width = 50)
 		self.list.pack(fill=Tkinter.BOTH, expand=1)
 		self.refresh()
-		
-	
+
+
 	def refresh(self):
 		'''Refresh the window
 		'''

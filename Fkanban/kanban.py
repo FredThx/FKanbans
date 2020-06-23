@@ -1,6 +1,6 @@
 # -*-coding:Latin-1 -*
 
-from ui_object import *
+from .ui_object import *
 import logging
 
 class kanban(ui_kanban, object):
@@ -10,7 +10,7 @@ class kanban(ui_kanban, object):
 	running = 1
 	full = 2
 	half_full = 3
-	
+
 	def __init__(self, item, qty, loop = None):
 		"""Initialisation
 			- item					:	the produced product (item object)
@@ -27,7 +27,7 @@ class kanban(ui_kanban, object):
 		self.fkanban = None
 		logging.debug("Creation of : %s"%(self))
 		ui_kanban.__init__(self)
-		
+
 	@property
 	def stock(self):
 		return self._stock
@@ -35,8 +35,8 @@ class kanban(ui_kanban, object):
 	def stock(self, stk):
 		self._stock = stk
 		self.ui_change_label()
-	
-	
+
+
 	def __str__(self):
 		if self.status == kanban.empty:
 			status = "empty"
@@ -47,12 +47,12 @@ class kanban(ui_kanban, object):
 		else:
 			status = "full"
 		return "kanban(%s, qty:%s, %s)"%(self.item.name, self.qty, status)
-	
+
 	@property
 	def name(self):
 		# TODO améliorer pour UI
 		return str(self)
-	
+
 	def consume(self, qty = None):
 		''' Consume the kanban
 			- qty	:	qty to consume
@@ -70,7 +70,7 @@ class kanban(ui_kanban, object):
 			self.status = kanban.half_full
 			logging.info("%s is partially consumed!"%(self))
 		self.ui_update()
-		
+
 	def produce(self):
 		'''Start production of the kanban
 		'''
@@ -84,7 +84,7 @@ class kanban(ui_kanban, object):
 		logging.info("Start production of %s. 1st operation is %s. It will be finish at %s"% \
 					(self.item, first_ope, self.next_time_change))
 		self.ui_update()
-	
+
 	def push(self):
 		'''If kanban is running and operation is finished, the kanban is pushed to the next operation
 		return True if something done
@@ -113,7 +113,7 @@ class kanban(ui_kanban, object):
 						self.ui_update()
 						return True
 		return False
-	
+
 	def inventory(self):
 		'''Calculate the stock cost in the kanban
 		'''
@@ -129,7 +129,3 @@ class kanban(ui_kanban, object):
 					break
 				ope_no += 1
 			return cost
-					
-					
-					
-					

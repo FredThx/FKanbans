@@ -1,9 +1,9 @@
 # -*-coding:Latin-1 -*
 
-from operation import *
-from ui_object import *
-from place import *
-from kanban import *
+from .operation import *
+from .ui_object import *
+from .place import *
+from .kanban import *
 import logging
 import random
 
@@ -21,10 +21,10 @@ class kloop(object):
 		self.item = item
 		self.time_stock_in = [(0,0)]
 		logging.debug('Creation of : %s'%(self))
-		
+
 	def __str__(self):
 		return "kloop(%s)"%(self.name)
-	
+
 	def stat(self):
 		''' Return the statistics informations
 		'''
@@ -32,7 +32,7 @@ class kloop(object):
 		for stat in self.time_stock_in:
 			stats.append("time = %s : production = %s"%stat)
 		return stats
-	
+
 class fab_kloop(kloop, ui_fab_kloop):
 	''' A Kanban loop for fabrication
 	'''
@@ -58,7 +58,7 @@ class fab_kloop(kloop, ui_fab_kloop):
 		for k in range(0,kanbans_nb):
 			self.kanbans.append(kanban(item, kanbans_qty, self))
 		self.red_zone = red_zone
-	
+
 	def produce_if_needed(self):
 		'''Check if produce is need et make actions
 			return the number of actions done
@@ -70,7 +70,7 @@ class fab_kloop(kloop, ui_fab_kloop):
 			if self.item.operations[0]._consume(self.batch, False):
 				self.produce()
 		return 0
-	
+
 	def produce(self):
 		'''Produce the item
 		'''
@@ -84,14 +84,14 @@ class fab_kloop(kloop, ui_fab_kloop):
 			i_kb+=1
 		if qty>0:
 			logging.warning("Not enougth kanbans in %s to produce the batch. Produce only %s vs %s"%(self, self.batch-qty, self.batch))
-			
-	
+
+
 	@property
 	def input_workshop(self):
 		''' Return the first operation workshop (ie kanban board workshop)
 		'''
 		return self.item.first_operation().workshop
-	
+
 	def stock(self):
 		'''return the stock of item (**OBSOLETE???*)
 			(qty, nb_kanban)
@@ -103,7 +103,7 @@ class fab_kloop(kloop, ui_fab_kloop):
 				nb+=1
 				qty+=kb.qty
 		return (qty, nb)
-		
+
 	def nb_kanban(self, status = None):
 		'''Return the number of kanbans in the loop with status (None: all)
 		'''
@@ -112,7 +112,7 @@ class fab_kloop(kloop, ui_fab_kloop):
 			if (status == None) or (kb.status == status):
 				nb+=1
 		return nb
-		
+
 	def kanbans_if(self, status=None):
 		''' Return the liste of kanbans witch status is status
 		'''
@@ -123,7 +123,7 @@ class fab_kloop(kloop, ui_fab_kloop):
 			if k.status == status:
 				kanbans.append(k)
 		return kanbans
-	
+
 	def kb_finish(self, kb):
 		'''Add statistique when a kanban is produced
 		'''
@@ -132,7 +132,7 @@ class fab_kloop(kloop, ui_fab_kloop):
 			self.time_stock_in[-1] = (self.fkanban.time, self.time_stock_in[-1][1]+kb.qty)
 		else:
 			self.time_stock_in.append((self.fkanban.time, kb.qty))
-	
+
 	def inventory(self):
 		'''Calculate the stock cost in the loop
 		'''
@@ -140,8 +140,8 @@ class fab_kloop(kloop, ui_fab_kloop):
 		for kb in self.kanbans:
 			cost += kb.inventory()
 		return cost
-					
-		
+
+
 class customer_kloop(kloop, ui_customer_kloop):
 	''' a loop for simulate the customer consumption
 	'''
@@ -157,7 +157,7 @@ class customer_kloop(kloop, ui_customer_kloop):
 									0.5 = 50% chance, qty is consumed
 									0. = never consumption
 			- qty_alea_rate		:	qty consumed = qty + random.randint(-qty_alea_range,qty_alea_range)
-			- manual			:	
+			- manual			:
 		'''
 		kloop.__init__(self, fkanban, name, item)
 		self.input_workshop = workshop
@@ -167,11 +167,11 @@ class customer_kloop(kloop, ui_customer_kloop):
 		self.qty_alea_range = qty_alea_range
 		self.last_output = 0
 		self.manual = manual
-	
+
 	@property
 	def kanbans(self):
 		return []
-	
+
 	def produce_if_needed(self):
 		'''Check if produce is need et make actions
 			return the number of actions done
@@ -186,7 +186,7 @@ class customer_kloop(kloop, ui_customer_kloop):
 						logging.info("%s => consomption %s of %s ."%(self, self.item, qty))
 						return 1
 		return 0
-	
+
 	def consume(self, qty):
 		''' Consume the nomenclature of the item if possible
 			return True is producing is possible, else return False
@@ -203,11 +203,11 @@ class customer_kloop(kloop, ui_customer_kloop):
 		else:
 			logging.warning("Produce of %s fail."%(self.item))
 			return False
-			
+
 	def inventory(self):
 		'''Calculate the stock cost in the loop
 		'''
 		return 0
-		
+
 	def nb_kanban(self, status = None):
 		return 0
